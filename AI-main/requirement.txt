@@ -153,3 +153,17 @@ wsproto==1.2.0
 xdg==5
 xkit==0.0.0
 zipp==1.0.0
+Flask
+loguru
+pymongo
+flask_apscheduler
+opencv-python
+torch
+pandas
+pyramid
+torchvision
+tqdm
+matplotlib
+seaborn
+pydrive
+ffmpeg
