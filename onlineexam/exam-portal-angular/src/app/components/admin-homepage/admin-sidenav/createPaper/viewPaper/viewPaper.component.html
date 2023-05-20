@@ -1,0 +1,55 @@
+
+
+<!-- <div *ngFor="let subject of subjectsArray"> -->
+  <div >
+  <h1>Questions
+    <button class="float-left mr-4 arrow"  (click)="goBack()"><mat-icon>arrow_back</mat-icon></button>
+  </h1>
+  <table class="table table-striped">
+
+    <thead>
+      <!-- [formControl]="subjectControl" -->
+      <tr>
+        <th>S.No</th>
+        <th>Content</th>
+        <th>Option A</th>
+        <th>Option B</th>
+        <th>Option C</th>
+        <th>Option D</th>
+        <th>Answer</th>
+        <th>Level</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let question of questionsArray let i=index">
+      <!-- <tr *ngIf="question.subject?.name?.toLowerCase()!='coding'"> -->
+        <tr  *ngIf="question.subject?.name!='CODING'" >
+       <td>{{i+1}}</td>
+        <td [innerHTML]="question.content"></td>
+        <td>{{question.optionA}}</td>
+        <td>{{question.optionB}}</td>
+        <td>{{question.optionC}}</td>
+        <td>{{question.optionD}}</td>
+        <td>{{question.answer}}</td>
+        <td>{{question.qtype}}</td>
+  </tr>
+  </tbody>
+   </table>
+
+    <h1>Coding Questions</h1>
+    <table class="table table-striped" >
+    <thead>
+      <th>S.No</th>
+      <th>Content</th>
+   </thead>
+   <tbody *ngFor="let question of questionsArray let i=index">
+
+      <tr *ngIf="question.subject?.name=='CODING'">
+      <td>{{i+1}}</td>
+      <td [innerHTML]="question.content"></td>
+    </tr>
+   </tbody>
+  </table>
+  </div>
+
+
+

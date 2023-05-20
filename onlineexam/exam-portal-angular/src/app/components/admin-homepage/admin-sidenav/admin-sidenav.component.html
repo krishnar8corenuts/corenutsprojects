@@ -1,0 +1,111 @@
+<!-- <mat-drawer-container class="example-container">
+  <mat-drawer mode="side" opened>
+    <button mat-raised-button class="ide-nav-button d-flex align-items-center text-left">
+      <mat-icon color="primary">settings</mat-icon>
+      Settings
+    </button>
+    <button mat-raised-button class="side-nav-button"><mat-icon color="primary">folder</mat-icon>Question Bank</button>
+    <button mat-raised-button class="side-nav-button"><mat-icon color="primary">assignment</mat-icon>Create paper</button>
+    <button mat-raised-button class="side-nav-button"><mat-icon color="primary" size="large">event</mat-icon>
+    Schedule Exam</button>
+    <button mat-raised-button class="side-nav-button"> <mat-icon color="primary" size="large">poll</mat-icon>
+      Exam Result</button>
+  </mat-drawer>
+
+</mat-drawer-container> -->
+
+
+ <!-- <div class="bootstrap-wrapper">
+  <div class="container-fulid">
+    <mat-list>
+      <mat-list-item style="margin-left: -21px;">
+        <button mat-raised-button class="side-nav-button"  (click)="clickEvent('settings')">
+          <mat-icon  name="settings">settings</mat-icon>
+          Settings
+        </button>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item>
+        <button mat-raised-button type="button" class="side-nav-button"(click)="clickEvent('questionbank')">
+          <mat-icon >folder</mat-icon>
+          Question Bank
+        </button>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item style="margin-left:-8px;">
+        <button mat-raised-button class="side-nav-button">
+          <mat-icon >assignment</mat-icon>
+          Create paper
+        </button>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item>
+        <button mat-raised-button class="side-nav-button">
+          <mat-icon size="large">event</mat-icon>
+          Schedule Exam
+        </button>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item style="margin-left:-8px;">
+        <button mat-raised-button class="side-nav-button" (click)="clickEvent('result')">
+          <mat-icon>event</mat-icon>
+          Exams Result
+        </button>
+      </mat-list-item>
+    </mat-list>
+  </div>
+</div> -->
+<body>
+
+
+<div class="bootstrap-wrapper">
+  <div class="container-fulid">
+    <mat-list class="matlist">
+      <mat-list-item class="matlistitem">
+        <button mat-button class="side-nav-button hove" (click)="clickEvent('settings')">
+          <mat-icon class="icon-spacing hove" color="primary">library_books</mat-icon>
+          <span class="button-text hove">Subjects</span>
+        </button>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item class="matlistitem">
+        <button mat-button type="button" class="side-nav-button hove" (click)="clickEvent('questionbank')">
+          <mat-icon class="icon-spacing hove" color="primary">folder</mat-icon>
+          <span class="button-text hove">Question Bank</span>
+        </button>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item class="matlistitem">
+        <button mat-button class="side-nav-button hove" (click)="clickEvent('createpaper')">
+          <mat-icon class="icon-spacing hove" color="primary">assignment</mat-icon>
+          <span class="button-text hove">Create Paper</span>
+        </button>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item class="matlistitem">
+        <button mat-button class="side-nav-button hove" (click)="clickEvent('scheduleexam')">
+          <mat-icon class="icon-spacing hove" color="primary">event</mat-icon>
+          <span  class="button-text hove">Schedule Exam</span>
+        </button>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item class="matlistitem">
+        <button mat-button class="side-nav-button hove" (click)="clickEvent('result')">
+          <mat-icon class="icon-spacing hove" color="primary">poll</mat-icon>
+          <span class="button-text hove">Exam Result</span>
+        </button>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item class="matlistitem">
+        <button mat-button class="side-nav-button hove" (click)="clickEvent('users')">
+          <mat-icon class="icon-spacing hove" color="primary">supervisor_account</mat-icon>
+          <span class="button-text hove">Users</span>
+        </button>
+      </mat-list-item>
+    </mat-list>
+  </div>
+</div>
+</body>
+
+
+

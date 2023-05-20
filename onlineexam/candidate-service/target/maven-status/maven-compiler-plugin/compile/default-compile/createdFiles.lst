@@ -1,0 +1,4 @@
+com/feuji/candidateservice/service/CandidateService.class
+com/feuji/candidateservice/repo/CandidateRepository.class
+com/feuji/candidateservice/CandidateServiceApplication.class
+com/feuji/candidateservice/controller/CandidateController.class

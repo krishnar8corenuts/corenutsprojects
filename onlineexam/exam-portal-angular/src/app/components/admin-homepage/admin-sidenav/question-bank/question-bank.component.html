@@ -1,0 +1,85 @@
+<div *ngIf="showCodingQuestions" class="mt-4">
+  <div *ngIf="manageQuestions" >
+  <div class="allign" *ngIf="showQuestion" >
+<div class="warapper">
+   <div class="div1 ml-2">
+        <mat-card class="card ml-2" >
+          <mat-card-header>
+            <div mat-card-avatar><img src="assets/Conversation.svg" alt="icon"></div>
+
+            <mat-card-title class="text-center ml-2">ADD QUESTION</mat-card-title>
+
+            <mat-card-subtitle class="text-center">adding questions</mat-card-subtitle>
+          </mat-card-header>
+
+          <mat-card-content>
+            <p>
+               Adding the question based on the subject and Topic
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button id="add-button" style="margin-left:6rem;" mat-button (click)="loadAddQuestionPage(false)" >
+              <mat-icon>add_circle_outline</mat-icon>Add question</button>
+          </mat-card-actions>
+        </mat-card>
+   </div>
+
+
+   <!-- //-------------------------------------// -->
+   <div class="div2">
+    <mat-card class="card ml-5">
+      <mat-card-header>
+        <div mat-card-avatar><img src="assets/Folder.svg" alt=""></div>
+        <mat-card-title class="text-center ml-2">MANAGE QUESTION</mat-card-title>
+        <mat-card-subtitle class="text-center ml-2">Editing questions</mat-card-subtitle>
+      </mat-card-header>
+
+      <mat-card-content class="mgm">
+        <p class="mgp">Manage the question based on the subject and Topic</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button id="add-button" style="margin-left:6rem;" mat-button (click)="loadManageQuestionPage(false)">
+          <mat-icon>add_circle_outline</mat-icon>Edit question</button>
+      </mat-card-actions>
+    </mat-card>
+   </div>
+ <!-- //--------------------------------------// -->
+
+   <div class="div3 ml-2">
+    <mat-card class="card ml-2" >
+      <mat-card-header>
+        <div mat-card-avatar><img src="assets/Code.svg" alt=""></div>
+        <mat-card-title class="text-center ml-2">ADD CODING QUESTION</mat-card-title>
+        <mat-card-subtitle class="text-center">adding coding questions</mat-card-subtitle>
+      </mat-card-header>
+
+      <mat-card-content>
+        <p>
+           Adding the question based on the subject and Topic
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button id="add-button" style="margin-left:6rem;" mat-button (click)="loadAddCodingQuestionPage(false)" >
+          <mat-icon>add_circle_outline</mat-icon>Add coding question</button>
+      </mat-card-actions>
+    </mat-card>
+   </div>
+</div>
+
+<!-- //--------------------------------------// -->
+</div>
+</div>
+</div>
+
+  <div class="allign" *ngIf="!showCodingQuestions">
+    <app-add-coding-question (loadAddCodingQuestionPage)="loadAddCodingQuestionPage(true)"></app-add-coding-question>
+  </div>
+
+    <div class="allign" *ngIf="!showQuestion">
+      <app-addquestion (loadAddQuestionPage)="loadAddQuestionPage(true)"></app-addquestion>
+    </div>
+    <div class="allign" *ngIf="!manageQuestions">
+      <app-manageQuestion (loadManageQuestionPage)="loadManageQuestionPage(true)"></app-manageQuestion>
+    </div>
+
+<!-- _________________________________________________________________ -->

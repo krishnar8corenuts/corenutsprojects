@@ -1,0 +1,4 @@
+com/feuji/userservice/repository/UserRepository.class
+com/feuji/userservice/service/UserService.class
+com/feuji/userservice/UserServiceApplication.class
+com/feuji/userservice/controller/UserController.class

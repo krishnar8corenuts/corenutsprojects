@@ -1,0 +1,26 @@
+1.https://github.com/WongKinYiu/yolov7
+Run Yolo
+-----------------
+
+cd spyproj
+cd yolov7
+python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source 0
+
+
+
+echo "# AI" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/corenuts007/AI.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/corenuts007/AI.git
+git branch -M main
+git push -u origin main	
+
+Create requirements command by using below
+> pip freeze >requirement.txt

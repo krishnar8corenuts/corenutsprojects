@@ -1,0 +1,12 @@
+/home/mohs/corenuts/micro-services-master/common-model/src/main/java/com/feuji/commonmodel/Role.java
+/home/mohs/corenuts/micro-services-master/common-model/src/main/java/com/feuji/commonmodel/CodingQuestion.java
+/home/mohs/corenuts/micro-services-master/common-model/src/main/java/com/feuji/commonmodel/Exam.java
+/home/mohs/corenuts/micro-services-master/common-model/src/main/java/com/feuji/commonmodel/TestCases.java
+/home/mohs/corenuts/micro-services-master/common-model/src/main/java/com/feuji/commonmodel/Question.java
+/home/mohs/corenuts/micro-services-master/common-model/src/main/java/com/feuji/commonmodel/CreatePaper.java
+/home/mohs/corenuts/micro-services-master/common-model/src/main/java/com/feuji/commonmodel/User.java
+/home/mohs/corenuts/micro-services-master/common-model/src/main/java/com/feuji/commonmodel/Subject.java
+/home/mohs/corenuts/micro-services-master/common-model/src/main/java/com/feuji/commonmodel/Marks.java
+/home/mohs/corenuts/micro-services-master/common-model/src/main/java/com/feuji/commonmodel/CommonModelApplication.java
+/home/mohs/corenuts/micro-services-master/common-model/src/main/java/com/feuji/commonmodel/UserAnswers.java
+/home/mohs/corenuts/micro-services-master/common-model/src/main/java/com/feuji/commonmodel/UserCode.java
